@@ -1,0 +1,21 @@
+.header {
+    width: 100%;
+    background-color: blue;
+    color: white;
+    height: 50px;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+}
+
+.header-content h1 {
+    margin: 0;
+}
+
+.header-content img {
+    width: 35px;
+    height: 35px;
+    margin: 9px;
+}

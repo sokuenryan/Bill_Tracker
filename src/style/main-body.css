@@ -1,0 +1,25 @@
+.main-body {
+ display: flex;
+ background-color: #fffeff;
+ min-height: 500px;
+ height: auto;
+}
+
+.main-body > .nav-btns {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-body > .nav-btns button {
+    height: 70px;
+    width: 130px;
+}
+
+.activeComponents {
+    margin: 30px 67px 45px 67px;
+    background-color: #ffff;
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0px 0px 55px 0px rgba(0, 0, 0, 0.1)
+}

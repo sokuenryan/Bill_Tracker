@@ -1,0 +1,33 @@
+.bill-tracker {
+    display: flex;
+    flex-direction: row;
+}
+
+.bill-table {
+    display: grid;
+    grid-gap: 50px;
+    border: 2px solid rgb(196, 191, 191);
+    width: 200px;
+    height: 222px;
+}
+
+.bill-table th {
+    background-color: lightgray;
+}
+
+.bill-table tbody {
+    display: grid;
+    grid-gap: 20px;
+    height: 200px;
+}
+
+.bill-table tr {
+    border: 0 solid lightgray;
+    border-width: 0 2px 2px;
+    display: grid;
+    height: 30px;
+}
+
+.bill_tab_table {
+    border: 2px solid lightgray;
+}
